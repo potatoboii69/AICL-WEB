@@ -14,7 +14,7 @@ export default function NewsGrid() {
 
   // 2. STATE & CONFIG
   const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 8; // Showing 8 items per page (2 rows of 4)
+  const postsPerPage = 4; // Showing 8 items per page (2 rows of 4)
 
   // 3. PAGINATION MATH
   const indexOfLastPost = currentPage * postsPerPage;
